@@ -1,6 +1,6 @@
 
 # Overview
-**OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
+**OneShot** performs [Pixie Dust attack] without having to switch to monitor mode.
 # Features
  - [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack);
  - integrated [3WiFi offline WPS PIN generator](https://3wifi.stascorp.com/wpspin);
