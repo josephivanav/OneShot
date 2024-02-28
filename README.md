@@ -1,14 +1,14 @@
 
 # Overview
-**OneShot** performs Pixie Dust attack without having to switch to monitor mode.
+**OneShot** performs Pixie Dust Attack without having to switch to monitor mode.
 # Features
  - Pixie Dust Attack
  - Online WPS Bruteforce
 # Requirements
- - Python 3.6 and above
- - Wpa supplicant
+ - Python 3.6 and Above
+ - Wpa Supplicant
  - Pixiewps
- - iw
+ - IW
 # Setup
 ## Debian/Ubuntu
 **Installing requirements**
@@ -30,28 +30,13 @@
  make
  sudo make install
  ```
-**Getting OneShot**
- ```
- cd ~
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
- ```
-Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
- ```
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
- ```
+
 ## Arch Linux
 **Installing requirements**
  ```
  sudo pacman -S wpa_supplicant pixiewps wget python
  ```
-**Getting OneShot**
- ```
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
- ```
-Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
- ```
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
- ```
+
 ## Alpine Linux
 It can also be used to run on Android devices using [Linux Deploy](https://play.google.com/store/apps/details?id=ru.meefik.linuxdeploy)
 
@@ -63,22 +48,10 @@ Adding the testing repository:
  ```
  sudo apk add python3 wpa_supplicant pixiewps iw
  ```
- **Getting OneShot**
- ```
- sudo wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
- ```
-Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
- ```
- sudo wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
- ```
-## [Termux](https://termux.com/)
+
+## Termux
 Please note that root access is required.  
 
-#### Using installer
- ```
- curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
- ```
-#### Manually
 **Installing requirements**
  ```
  pkg install -y root-repo
@@ -145,8 +118,3 @@ Launch online WPS bruteforce with the specified first half of the PIN:
  Try disabling Wi-Fi in the system settings and kill the Network manager. Alternatively, you can try running OneShot with ```--iface-down``` argument.
 #### The wlan0 interface disappears when Wi-Fi is disabled on Android devices with MediaTek SoC
  Try running OneShot with the `--mtk-wifi` flag to initialize Wi-Fi device driver.
-# Acknowledgements
-## Special Thanks
-* `rofl0r` for initial implementation;
-* `Monohrom` for testing, help in catching bugs, some ideas;
-* `Wiire` for developing Pixiewps.
