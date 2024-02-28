@@ -2,7 +2,7 @@
 # Overview
 **OneShot** performs Pixie Dust attack without having to switch to monitor mode.
 # Features
- - [Pixie Dust attack];
+ - Pixie Dust attack;
  - integrated [3WiFi offline WPS PIN generator];
  - [online WPS bruteforce];
  - Wi-Fi scanner with highlighting based on iw;
