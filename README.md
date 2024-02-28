@@ -2,15 +2,13 @@
 # Overview
 **OneShot** performs Pixie Dust attack without having to switch to monitor mode.
 # Features
- - Pixie Dust attack
- - integrated [3WiFi offline WPS PIN generator];
- - [online WPS bruteforce];
- - Wi-Fi scanner with highlighting based on iw;
+ - Pixie Dust Attack
+ - Online WPS Bruteforce
 # Requirements
- - Python 3.6 and above;
- - [Wpa supplicant](https://www.w1.fi/wpa_supplicant/);
- - [Pixiewps](https://github.com/wiire-a/pixiewps);
- - [iw](https://wireless.wiki.kernel.org/en/users/documentation/iw).
+ - Python 3.6 and above
+ - Wpa supplicant
+ - Pixiewps
+ - iw
 # Setup
 ## Debian/Ubuntu
 **Installing requirements**
